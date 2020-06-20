@@ -1,0 +1,90 @@
+/* COVER */
+
+.hero-wrap-about {
+  width: 100%;
+  height: 100%;
+  position: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: relative; }
+  @media (max-width: 1199.98px) {
+    .hero-wrap-about {
+      background-position: center center !important; } }
+  .hero-wrap-about .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .2;
+    background: #000000; }
+  .hero-wrap-about.hero-wrap-about-2 {
+    height: 200px; }
+    .hero-wrap-about.hero-wrap-about-2 .overlay {
+      opacity: .3; }
+    .hero-wrap-about.hero-wrap-about-2 .slider-text {
+      height: 200px; }
+
+/* ABOUT */
+
+
+.about-me {
+  margin-top: 1.5em;
+
+}
+
+@media (min-width: 1200px) {
+  .about-me {
+    height: 80% !important;
+    margin-top: 1.5em;
+
+  }
+}
+
+.about-me-text {
+  color: #53585F !important;
+  text-align: justify !important;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.about-me-text-below {
+  color: #53585F !important;
+  text-align: justify !important;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: -1.6em;
+}
+
+/* NOTICE */
+
+.notice-section {
+  background-color: #D8F0FA;
+  margin: auto;
+}
+
+.notice-section .row {
+  margin: 2em;
+  padding: 1em;
+}
+
+
+.notice-exclamation {
+  color: #1164A0;
+}
+
+.notice-text-title {
+  color: black !important;
+  text-align: justify !important;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.notice-text {
+  color: black !important;
+  text-align: justify !important;
+  font-size: 15px;
+  line-height: 1.5;
+}

@@ -8544,7 +8544,6 @@ h1, h2, h3, h4, h5,
     opacity: 1; }
 
 .wrap {
-  width: 100%;
   margin-bottom: 30px; }
   .wrap .seasonal {
     height: 300px;
@@ -9417,57 +9416,3 @@ textarea.form-control {
     font-weight: 400;
     margin-bottom: 5px;
     display: block; }
-
-/* INDEX QUOTE SECTION */
-.index-quote {
-  background: #7ABE80 !important;
-  padding: 2em !important;
-}
-
-.index-quote-text {
-  line-height: 1.1;
-  font-size: 160%;
-}
-
-.img-service {
-  position: absolute;
-  width: 100% !important;
-  height: 50% !important;
-}
-
-.index-notice {
-  background: #fff !important;
-  padding: 2em !important;
-  color: black !important;
-}
-
-.notice-exclamation {
-  color: #FFC84A;
-}
-
-.notice-text {
-  color: #53585F !important;
-  text-align: justify !important;
-  font-size: 15px;
-  line-height: 1.5;
-}
-
-/* SECTIONS */
-
-.index-sections {
-  padding-top: 0em !important;
-}
-
-.seasonal-div {
-  background: black;
-  /* background: #C33764; */
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.8), rgba(201, 201, 204, 0.8));
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(201, 201, 204, 0.8));
-  /* background: -webkit-linear-gradient(rgba(23, 142, 95, 0.8), rgba(122, 190, 128, 0.8));
-  background: linear-gradient(rgba(23, 142, 95, 0.8), rgba(122, 190, 128, 0.8)); */
-}
-
-.wrap .img {
-  opacity: 0.9;
-
-}
