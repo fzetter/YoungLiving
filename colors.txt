@@ -1,2 +1,0 @@
-#4E9525 green
-#fbd341 yellow

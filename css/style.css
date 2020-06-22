@@ -9416,3 +9416,18 @@ textarea.form-control {
     font-weight: 400;
     margin-bottom: 5px;
     display: block; }
+
+/* Footer */
+.logo-footer-div {
+  margin: auto !important;
+  padding: 0 !important;
+}
+
+.logo-footer {
+  height: 100% !important;
+  text-align: center !important;
+}
+
+.footer-info {
+  color: white !important;
+}
