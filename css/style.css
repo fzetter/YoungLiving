@@ -9431,3 +9431,22 @@ textarea.form-control {
 .footer-info {
   color: white !important;
 }
+
+/* Subscription */
+
+#subs-submit {
+  -webkit-appearance: button;
+  padding: 0;
+  margin: 0;
+  border-style: none;
+  color: #fff !important;
+  background: #178E5F !important;
+  border-radius: 0px 5px 5px 0px;
+  font-family: "PT Sans", inherit;
+  font-size: inherit;
+  line-height: 1.5em;
+  cursor: pointer;
+  width: 150px;
+  padding-top: 0.8em;
+  text-align: center;
+}

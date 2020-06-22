@@ -571,28 +571,28 @@
 </section>
 
 
-    <!-- SUBSCRIBE -->
-    <section class="ftco-section ftco-no-pt ftco-no-pb bg-primary subscribe-bg-color">
-      <div class="container">
-        <div class="row d-flex justify-content-center">
-        	<div class="col-lg-8 py-4">
-        		<div class="row">
-		          <div class="col-md-6 ftco-animate d-flex align-items-center">
-		            <h2 class="mb-0" style="color:white; font-size: 24px;">Hírlevél Feliratkozás</h2>
-		          </div>
-		          <div class="col-md-6 d-flex align-items-center">
-		            <form action="#" class="subscribe-form">
-		              <div class="form-group d-flex">
-		                <input type="text" class="form-control subscribe-email" placeholder="Email cím">
-		                <input type="submit" value="Iratkozz fel" class="submit px-3">
-		              </div>
-		            </form>
-		          </div>
-	          </div>
+  <!-- SUBSCRIBE -->
+  <section class="ftco-section ftco-no-pt ftco-no-pb bg-primary subscribe-bg-color">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-8 py-4">
+          <div class="row">
+            <div class="col-md-6 ftco-animate d-flex align-items-center">
+              <h2 class="mb-0" style="color:white; font-size: 24px;">Hírlevél Feliratkozás</h2>
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+              <form class="subscribe-form">
+                <div class="form-group d-flex">
+                  <input type="text" class="form-control subscribe-email" placeholder="Email cím">
+                  <a class="submit px-3" id="subs-submit">Iratkozz fel</a>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
-	</section>
+    </div>
+  </section>
 	<section></section>
 
   <!-- FOOTER -->
@@ -657,16 +657,16 @@
 
   <script>
 	  filterSelection("all")
-function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("filterDiv");
-  if (c == "all") c = "";
-  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  }
-}
+    function filterSelection(c) {
+      var x, i;
+      x = document.getElementsByClassName("filterDiv");
+      if (c == "all") c = "";
+      // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+      for (i = 0; i < x.length; i++) {
+        w3RemoveClass(x[i], "show");
+        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+      }
+    }
 
 			// Show filtered elements
 			function w3AddClass(element, name) {
