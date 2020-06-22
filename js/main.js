@@ -181,4 +181,8 @@
 		alert("Thank you for subscribing!")
 	})
 
+	$('#send-email').click(function() {
+		alert("Message sent!")
+	})
+
 })(jQuery);
